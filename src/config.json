@@ -1,0 +1,16 @@
+{
+  "name": "Kera-1",
+  "dependencies": {
+    "_CL_": "CommandLine",
+    "_Interperter_": "Interpreter",
+    "IQueue": "Queue",
+    "IPool": "SimplePool",
+    "IAddress": "Address",
+    "IMessage": "Message"
+  },
+  "processes": [
+    { "name": "_CL_", "poolSize": 1},
+    { "name": "_Interperter_", "poolSize": 5}
+  ],
+  "threadSleepInterval": 1000
+}
